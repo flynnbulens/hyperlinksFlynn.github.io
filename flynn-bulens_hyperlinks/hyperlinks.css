@@ -1,0 +1,47 @@
+
+@font-face {
+  font-family: "OCR A Extended";
+  src: url(OCRAEXT_2.TTF);
+}
+@font-face {
+  font-family: ocr;
+  src: url(OCRAStd.otf);
+}
+body {
+    margin:0;
+    padding: 15px;
+    font-size:16px;
+    line-height:150%;
+    font-family: Georgia, Garamond, "Times New Roman", serif;
+}
+hr {margin:20px 0}
+.wrapper {
+    max-width:1100px;
+    margin:0 auto;
+}
+.wrapper img {
+    max-width:100%;
+}
+.wrapper img.portrait {
+    height:700px;
+    width:auto;
+}
+.wrapper img.first {
+    margin-right:40px
+}
+h1 {
+    font-family: "OCR A Extended", ocr, serif;
+}
+nav {
+    font-family: "OCR A Extended", ocr, serif;
+    font-weight:bold;
+}
+a {
+    color:#fc7303;
+    font-weight:bold;
+}
+a:hover {
+    color:#32bf28;
+}
+.fl {float:left}
+.fr {float:right}
